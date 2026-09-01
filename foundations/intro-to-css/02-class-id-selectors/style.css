@@ -1,1 +1,28 @@
 /* Add CSS Styling */
+.odd-num {
+    background-color: #f08080;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#num-2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.big-num {
+    font-size: 24px;
+}
+
+#num-4 {
+    background-color: #90ee90;
+    font-weight: bold;
+}
+
+/* Feedback */
+/* Some instructions havn't been followed : 
+-> I should use RGB, or HEX notation but not key-word value
+-> They're repetetion on the font-size for number 4 and 3*/
+
+/* PS: Correction has been made */
+
+
