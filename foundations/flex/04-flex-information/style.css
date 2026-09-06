@@ -10,6 +10,31 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* Remarque : Comme l'ensemble des textes de la page
+  on la propriété text-align: center; on pourrait le
+  mettre dans le selector, body */
+  text-align: center;
+}
+
+.plants {
+  margin-top: 32px;
+
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant {
+  /* la propriété est hérditaire*/
+  text-align: center;
+  
+  /* Remarque : Ceci n'est pas optiomal, par défault en display: block
+  les elements sont déjà placer comme il le faut, et on peut remplacer
+  flex-basis par max-width */
+  display: flex;
+  flex-basis: 200px;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* do not edit this footer */
